@@ -1,1 +1,8 @@
-# hono-zod-drizzle
+```
+npm install
+npm run dev
+```
+
+```
+npm run deploy
+```
