@@ -2,27 +2,8 @@ name = "hono-zod-drizzle"
 main = "src/index.ts"
 compatibility_date = "2024-12-21"
 
-# compatibility_flags = [ "nodejs_compat" ]
-
-# [vars]
-# MY_VAR = "my-variable"
-
-# [[kv_namespaces]]
-# binding = "MY_KV_NAMESPACE"
-# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-# [[r2_buckets]]
-# binding = "MY_BUCKET"
-# bucket_name = "my-bucket"
-
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "my-database"
-# database_id = ""
-
-# [ai]
-# binding = "AI"
-
-# [observability]
-# enabled = true
-# head_sampling_rate = 1
+[[d1_databases]]
+binding = "DB"
+database_name = "stock-trade-db"
+database_id = "15cb53ba-8e5c-4497-b44d-821d93a1ef0d"
+migrations_dir = "drizzle/migrations"
